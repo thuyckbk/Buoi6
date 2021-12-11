@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thực hành bảng</title>
+    <style>
+        table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+            }
+         td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+                }
+         tr:nth-child(odd) {
+    background-color: #dddddd;
+                }
+    </style>
 </head>
 <body>
-    <table>
+    <table border="1px">
         <tr>
             <th>STT</th>
             <th>Họ và tên</th>
