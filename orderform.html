@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Form</title>
+    <style>
+        .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+   
 </head>
 <body>
     <form action="" method="get">
@@ -12,28 +18,28 @@
         <label for="chon">What would you like to buy?</label><br>
         <select name="" id="chon">
             <option value="monan">A</option>
-            <option value="monan">B</option>
-            <option value="monan">C</option>
-            <option value="monan">D</option>
-            <option value="monan">E</option>
+            <option value="monan">B (+0.5$)</option>
+            <option value="monan">C (+0.5$)</option>
+            <option value="monan">D (+0.5$)</option>
+            <option value="monan">E (+0.5$)</option>
         </select>
         <br>
-        <label for="loai">How many would you like to order?</label><br>
+        <label for="1">How many would you like to order?</label><br>
         <input type="radio" name="loai" id="1" value="1">1-10$
         <br>
-        <input type="radio" name="loai" id="2" value="2">2-20$
+        <input type="radio" name="loai" id="1" value="2">2-20$
         <br>
-        <input type="radio" name="loai" id="3" value="3">3-30$
+        <input type="radio" name="loai" id="1" value="3">3-30$
         <br>
-        <label for="TT">Tên</label><br>
-        <input type="text" name="TT" id="" placeholder="FirstName">
-        <input type="text" name="TT" id="" placeholder="Lastname">
+        <label for="TT">Tên</label><span style="color: red">*</span> <br>
+        <input type="text" name="TT" id="TT" placeholder="FirstName">
+        <input type="text" name="TT" id="TT" placeholder="Lastname">
         <br>
         <label for="mail">Email</label><br>
-        <input type="email" name="mail" id="">
+        <input type="email" name="mail" id="mail">
         <br>
         <label for="sdt">Phone Number</label><br>
-        <input type="tel" name="sdt" id="">
+        <input type="tel" name="sdt" id="sdt">
         <br>
         <input type="submit" value="Submit">
 
